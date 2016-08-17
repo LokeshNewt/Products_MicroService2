@@ -1,0 +1,8 @@
+---
+applications:
+- name: Products
+  memory: 1024M
+  buildpack: java_buildpack
+  path: target/products-0.0.1-SNAPSHOT.jar
+  host: products-microservice-8762
+  domain: cfapps.io
