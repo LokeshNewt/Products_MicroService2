@@ -1,7 +1,7 @@
 ---
 applications:
 - name: Products
-  memory: 1024M
+  memory: 512M
   buildpack: java_buildpack
   path: target/products-0.0.1-SNAPSHOT.jar
   host: products-pws-8762
