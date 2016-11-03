@@ -4,5 +4,5 @@ applications:
   memory: 512M
   buildpack: java_buildpack
   path: target/products-0.0.1-SNAPSHOT.jar
-  host: products-pws-8762
+  host: products-pws-8766
   domain: cfapps.io
